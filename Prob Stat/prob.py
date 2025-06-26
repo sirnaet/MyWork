@@ -9,7 +9,7 @@ print("Current working directory:", os.getcwd())
 
 # Load Excel data
 # df = pd.read_excel("DATA.xlsx", sheet_name="Sheet1")
-df = pd.read_excel(r"C:\Users\memus\Sanaet\Personal\Prob Stat\DATA.xlsx", sheet_name="Sheet1")
+df = pd.read_excel(r"C:\Users\memus\Sanaet\Personal\Prob Stat\DATA.xlsx", sheet_name="Sheet1") #Depends on the location saved
 
 # Pearson correlation coefficient
 correlation, _ = stats.pearsonr(df["Hours_Coding"], df["Num_Bugs"])
